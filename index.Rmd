@@ -1,0 +1,104 @@
+---
+title: ""
+pagetitle: Zhengchao Wang (IC)
+output:
+  html_document:
+    #theme: readable
+    highlight: pygments
+    #highlight: null
+    #css: styles.css
+    #toc: true
+    #toc_float: 
+    #    collapsed: false
+    #toc_depth: 4
+    
+---
+
+
+
+<style type="text/css">
+.main-container {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+<br/>
+
+
+<img src="zhengchaowang.jpg" style="width:12.0%; border:0px solid; margin-right: 1.0%" align="right"><p style="text-align: justify; margin-right: 15%"> <font size = "5"> **Zhengchao Wang**</br>
+<font size = "4">Imperical College Business School</br>
+Email: z.wang19@imperial.ac.uk</br>
+Links: [**CV**](CV_WZC.pdf){target="_blank"} 
+| [College Webpage](https://www.imperial.ac.uk/people/z.wang19){target="_blank"} | [LinkedIn](https://www.linkedin.com/in/zhengchao-wang-113443110/){target="_blank"}
+| [Google Scholar](https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=Ot_clqwAAAAJ&sortby=pubdate){target="_blank"}
+</br>
+
+</br>
+
+<font size = "4">
+
+I am a PhD candidate at Imperial College Business School, where I am fortunate to be advised by Professor [Wolfram Wiesemann](http://wp.doc.ic.ac.uk/wwiesema/){target="_blank"} and Professor [Heikki Peura](https://www.peura.org/){target="_blank"}.</br>
+
+My research lies at data-driven optimization and statistical learning, with applications in revenue management and operations for non-profit organizations. </br>
+
+
+<p style="text-align: center; font-size: 24px;">**I am on the job market of 2024-2025**</p> 
+
+
+
+
+#### <span style="color:#646464;">**Publications**</span>
+
+* [**Randomized assortment optimization**](https://doi.org/10.1287/opre.2022.0129){target="_blank"}</br>
+with Heikki Peura and Wolfram Wiesemann</br>
+Forthcoming in *Operations Research*</br>
+
+#### <span style="color:#646464;">**Working paper**</span>
+
+* [**From Data to Donations: Optimal Fundraising Campaigns for Non-Profit Organizations**]( ){target="_blank"}</br>
+with Heikki Peura, Sven Mikolon, and Wolfram Wiesemann</br>
+
+#### <span style="color:#646464;">**Work in progress**</span>
+
+* [**Robust Adaptive Sequential Decision Making in a Finite Horizon**]( ){target="_blank"}</br>
+with Daniel Kuhn, Heikki Peura, and Wolfram Wiesemann</br>
+
+* [**Regret Minimized Assortment Optimization**]( ){target="_blank"}</br>
+with Zhi Chen and Yi-Chun Akchen</br>
+
+#### <span style="color:#646464;">**Other Publications**</span>
+
+* [**Towards realization of an Energy Internet: Designing distributed energy systems using game-theoretic approach**](https://doi.org/10.1016/j.apenergy.2020.116349){target="_blank"}
+</br>
+with A.T.D. Perera, Vahid M. Nik, and Jean-Louis Scartezzini</br>
+*Applied Energy*, 283: 116349 (2021)
+
+<!---[[DOI](https://doi.org/10.1016/j.apenergy.2020.114942){target="_blank"}] --->
+
+* [**Integrated platform to design robust energy internet **](https://doi.org/10.1016/j.apenergy.2020.114942){target="_blank"}</br>
+with A.T.D. Perera</br>
+*Applied Energy*, 269: 114942 (2020)
+
+* [**Understanding Pedestrian Behavior: from Data to Management Strategies **](https://doi.org/10.4324/9781351058759){target="_blank"}</br>
+with Michel Bierlaire,  Riccardo Scarinci, Merry Nikolic, Yuki Oyama, and Nicolas Molyneaux</br>
+*Routledge Handbook of Urban Mobility*, (2020)
+
+<!---[[DOI](https://doi.org/10.1016/j.apenergy.2020.114942){target="_blank"}]
+***
+
+#### <span style="color:#646464;">**Other Journal Papers**</span>
+--->
+
+
+***
+
+
+<!---#### <span style="color:#646464;">**Coming talks**
+
+* [**Optimal Campaigns for Non-profit Organizations**]( ){target="_blank"}
+</br>
+  * MSOM, Minneapolis, MN, 30 June - 2 July, 2024
+</br>
+--->
