@@ -1,0 +1,46 @@
+- name: Publications
+  items:
+    - title: Randomized Assortment Optimization
+      authors: Heikki Peura and Wolfram Wiesemann
+      venue: Operations Research (2024)
+      note:
+      url: https://doi.org/10.1287/opre.2022.0129
+
+- name: Working Papers
+  items:
+    - title: "From Data to Donations: Optimal Fundraising Campaigns for Non-Profit Organizations"
+      authors: Heikki Peura, Sven Mikolon, and Wolfram Wiesemann
+      venue:
+      note: Job market paper
+      url:
+
+- name: Work in Progress
+  items:
+    - title: Robust Adaptive Experiment Design over Finite Horizons
+      authors: Daniel Kuhn, Heikki Peura, and Wolfram Wiesemann
+      venue:
+      note:
+      url:
+    - title: Regret-Minimizing Assortment Optimization
+      authors: Zhi Chen and Yi-Chun Akchen
+      venue:
+      note:
+      url:
+
+- name: Earlier Publications
+  items:
+    - title: "Towards Realization of an Energy Internet: Designing Distributed Energy Systems Using Game-Theoretic Approach"
+      authors: A.T.D. Perera, Vahid M. Nik, and Jean-Louis Scartezzini
+      venue: "Applied Energy, 283: 116349 (2021)"
+      note:
+      url: https://doi.org/10.1016/j.apenergy.2020.116349
+    - title: Integrated Platform to Design Robust Energy Internet
+      authors: A.T.D. Perera
+      venue: "Applied Energy, 269: 114942 (2020)"
+      note:
+      url: https://doi.org/10.1016/j.apenergy.2020.114942
+    - title: "Understanding Pedestrian Behavior: From Data to Management Strategies"
+      authors: Michel Bierlaire, Riccardo Scarinci, Merry Nikolic, Yuki Oyama, and Nicolas Molyneaux
+      venue: Routledge Handbook of Urban Mobility (2020)
+      note:
+      url: https://doi.org/10.4324/9781351058759

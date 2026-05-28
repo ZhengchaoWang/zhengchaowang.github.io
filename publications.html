@@ -1,0 +1,36 @@
+---
+layout: default
+title: Publications
+permalink: /publications/
+---
+
+<section class="section page-title">
+  <h1>Publications</h1>
+  <p>Research papers, working papers, and earlier publications.</p>
+</section>
+
+<section class="section">
+  {% for group in site.data.publications %}
+    <h2>{{ group.name }}</h2>
+    <ol class="publication-list">
+      {% for item in group.items %}
+        <li>
+          <p class="publication-title">
+            {% if item.url %}
+              <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.title }}</a>
+            {% else %}
+              {{ item.title }}
+            {% endif %}
+          </p>
+          <p class="publication-authors">{{ item.authors }}</p>
+          {% if item.venue %}
+            <p class="publication-venue">{{ item.venue }}</p>
+          {% endif %}
+          {% if item.note %}
+            <p class="publication-note">{{ item.note }}</p>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ol>
+  {% endfor %}
+</section>

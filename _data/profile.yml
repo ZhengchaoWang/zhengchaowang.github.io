@@ -1,0 +1,39 @@
+name: Zhengchao Wang
+title: PhD Candidate
+affiliation: Imperial College Business School
+email: z.wang19@imperial.ac.uk
+photo: /zhengchaowang.jpg
+notice:
+
+links:
+  - label: CV
+    url: /CV_WZC.pdf
+    external: true
+  - label: Imperial profile
+    url: https://www.imperial.ac.uk/people/z.wang19
+    external: true
+  - label: Google Scholar
+    url: https://scholar.google.com/citations?view_op=list_works&hl=en&user=Ot_clqwAAAAJ&sortby=pubdate
+    external: true
+  - label: LinkedIn
+    url: https://www.linkedin.com/in/zhengchao-wang-113443110/
+    external: true
+
+bio:
+  - I am a PhD candidate at Imperial College Business School, advised by Professor <a href="http://wp.doc.ic.ac.uk/wwiesema/" target="_blank" rel="noopener">Wolfram Wiesemann</a> and Professor <a href="https://www.peura.org/" target="_blank" rel="noopener">Heikki Peura</a>.
+  - My research interests are in data-driven decision-making using optimization and statistical learning, with applications in revenue management and social goods.
+
+research_interests:
+  - Data-driven decision-making
+  - Optimization
+  - Statistical learning
+  - Revenue management
+  - Social goods
+  - Robust adaptive experiment design
+
+teaching:
+  - <strong>Data Structures and Algorithms</strong><br>Financial Technology, Risk Management and Financial Engineering, and Business Analytics programs<br>Fall 2020, 2021, 2022, 2023
+  - <strong>Optimization and Decision Models</strong><br>Business Analytics program<br>Spring 2022, 2023, 2024
+  - <strong>Business Analytics Electives</strong><br>Management and MBA suite programs<br>Summer 2021, 2022, 2024
+  - <strong>Optimization and Simulation</strong><br>PhD<br>Spring 2019
+  - <strong>Introduction to Optimization and Operations Research</strong><br>Bachelor<br>Fall 2017, 2018

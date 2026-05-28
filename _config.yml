@@ -1,0 +1,14 @@
+title: Zhengchao Wang
+description: Academic website of Zhengchao Wang
+url: "https://zhengchaowang.github.io"
+baseurl: ""
+lang: en
+markdown: kramdown
+permalink: pretty
+google_analytics: G-ERLG6G7G18
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - site_libs
