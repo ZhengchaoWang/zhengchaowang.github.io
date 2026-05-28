@@ -1,0 +1,351 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{etaremune}
+\usepackage{enumitem,kantlipsum}
+\usepackage[hidelinks,pdfnewwindow=true]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[R]{ \qquad \qquad \qquad \qquad \; \newline  Page \thepage\ of \pageref{LastPage}}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{soul}
+\usepackage{amsmath}
+\usepackage{iftex}
+\ifPDFTeX
+\input{glyphtounicode}
+\pdfgentounicode=1
+\fi
+
+
+\newlist{myitemize}{itemize}{3}
+\setlist[myitemize,1]{label=$ $,leftmargin=0.15in}
+\setlist[myitemize,2]{label=$-$,leftmargin=0.5in}
+\setlist[myitemize,3]{label=$\diamond$}
+
+
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generated pdf is machine readable when compiled with pdfLaTeX.
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+
+
+\newcommand{\resumeSubheading}[4]{
+	\vspace{-2pt}\item
+	\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		#3 &  #4 \\
+	\end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small #1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      #1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[label=--]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+
+\begin{center}
+	\textbf{\Large \scshape Zhengchao Wang}, {\large } \\ \vspace{1pt}  {zhengchao.wang@sydney.edu.au} $|$
+	\href{https://zhengchaowang.github.io}{{https://zhengchaowang.github.io}}\\ \vspace{1pt} 
+	{School of Business Analytics and Marketing, University of Sydney Business School}
+\end{center}
+
+
+
+%\section{Appointment}
+%\resumeSubHeadingListStart
+%\resumeSubheading
+%{University College London (UCL) School of Management}{2023 -- present}
+%{Assistant Professor of \href{http://www.mgmt.ucl.ac.uk/people\#operations-technology}{Operations and Technology}}{}
+%\resumeSubHeadingListEnd
+
+
+
+%-----------EDUCATION-----------
+
+\section{Employment}
+  \resumeSubHeadingListStart
+\resumeSubheading
+{University of Sydney Business School} {2026. 01 -- Present}
+{Lecturer (Assistant Professor)} {}
+   \vspace{0.1cm}
+  \resumeSubheading
+  {Imperial College Business School} {2025. 08 -- 2026. 01}{Research Associate}{}
+  \resumeSubHeadingListEnd
+
+\section{Education}
+  \resumeSubHeadingListStart
+  \resumeSubheading
+  %{UCLA Anderson School of Management}{09/2017 -- 06/2023}{\, -- Ph.D. in Decision, Operations, and Technology Management (advisor: \href{https://vvmisic.github.io}{Velibor Mi\v{s}i\'{c}})}{}
+  {Imperial College Business School} {2020 -- 2025}{Ph.D. in Analytics and Operations} \\ {M.Res. in Analytics and Operations (\textit{Distinction}) } { \hfill 2019 -- 2020\,}
+   \vspace{0.1cm}
+    \resumeSubheading
+    {\'{E}cole Polytechnique F\'{e}d\'{e}ral de Lausanne} {2015 -- 2017}
+    {M.S. in Energy Management and Sustainability} {}
+     \vspace{0.1cm}
+    \resumeSubheading
+      {Harbin Institute of Technology} {2010 -- 2014}
+      {B.Eng. in Civil Engineering}{}
+       \vspace{0.1cm}
+       
+      {Exchange at Hanyang University,  South Korea}  {\hfill 2012 -- 2013\;\;}
+  \resumeSubHeadingListEnd
+
+
+\section{Research}
+%\,\underline{\it Published \& Accepted Journal Papers:}
+\underline{\sc \small Refereed Journal Papers:}
+\begin{myitemize}
+
+	\item \href{https://doi.org/10.1287/opre.2022.0129}{\bf  Randomized Assortment Optimization}\\{Zhengchao Wang, Heikki Peura, and Wolfram Wiesemann}\\ {{\it Operations Research},  2024}
+\end{myitemize}
+
+\underline{\sc \small Working Papers:} {} %\small (preprints available)
+\begin{myitemize}
+		\item {\bf From Data to Donations: Optimal Fundraising Campaigns for Non-Profit Organizations}\\{Zhengchao Wang, Heikki Peura, Sven Mikolon, and Wolfram Wiesemann}
+		\\ {\it {Manuscript available upon request}}
+       \item {\bf From Markov Chain Choice to Markov Decision Processes: Equivalence, Optimization, and Construction}\\{Zhengchao Wang}
+		\\ {\it {Manuscript available upon request}}
+\end{myitemize}
+
+\underline{\sc \small Work in Progress:}
+\begin{myitemize}
+       \item {\bf Optimal Human-in-the-Loop Recommendation under Endogenous Trust and Probabilistic Adherence}\\{Zhengchao Wang, Huikang Liu, and Huan Xu}
+\end{myitemize}
+%\href{ }
+\underline{\sc \small Other Publications:}
+
+\begin{myitemize}
+	\item \href{https://doi.org/10.1016/j.apenergy.2020.116349}{\bf  Towards Realization
+of an Energy Internet: Designing Distributed Energy Systems using Game-theoretic Approach}\\{A.T. Dasun Perera, Zhengchao Wang, Vahid Nik,  and Jean-Louis Scartezzini}\\ {{\it Applied Energy},  2021}
+	\item \href{https://doi.org/10.1016/j.apenergy.2020.114942}{\bf  Integrated Platform to Design Robust Energy Internet}\\{Zhengchao Wang and A.T. Dasun Perera}\\ {{\it Applied Energy},  2020}
+	\item \href{https://doi.org/10.4324/9781351058759}{\bf Understanding Pedestrian Behavior: From Data to Management Strategies}\\ {Michel Bierlaire,  Riccardo Scarinci, Marija Nikolic, Yuki Oyama, Nicholas Molyneaux, and Zhengchao Wang}\\ {{\it Routledge Handbook of Urban Mobility},  June 2020}
+\end{myitemize}
+
+%\,\underline{\it Refereed Conference Proceedings:}
+\underline{\sc \small Conference Proceedings:}
+\begin{myitemize}
+	
+	\item \href{https://doi.org/10.1016/j.egypro.2018.12.069}{\bf Robust Optimization of Power Grid with Distributed Generation and Improved Reliability}\\ {Zhengchao Wang and A.T. Dasun Perera}\\ {{\it REM2018: Renewable Energy Integration with Mini/Microgrid} (Invited for journal submission)}
+	\item \href{https://www.strc.ch/2019/Wang_EtAl.pdf}{\bf Integrated Optimization of Charging Stations for Electric Taxis}\\ {Zhengchao Wang, Yuki Oyama, Michel Bierlaire, and Nikolaos Geroliminis}\\ {{\it $19{th}$ Swiss Transport
+Research Conference}} 
+	\item \href{https://www.strc.ch/2018/Wang_EtAl.pdf}{\bf Pedestrian Activity Schedule Models: Review and Promises}\\ {Zhengchao Wang, Yuki Oyama, Riccardo Scarinci, Michel Bierlaire, and Nikolaos Geroliminis}\\ {{\it $18{th}$ Swiss Transport
+Research Conference}} 
+	%\item \href{https://ieeexplore.ieee.org/document/8594418}{\bf Improving Offline Value-Function Approximations for POMDPs by Reducing Discount Factors}\\ {\small \, -- with Mykel Kochenderfer and Matthijs Spaan.}\\ {\small \, -- {\it IEEE/RSJ International Conference on Intelligent Robots and Systems} (2018).}
+	
+	\end{myitemize}
+%\begin{enumerate}
+%	%\setcounter{enumi}{7}
+%	\item \href{https://ieeexplore.ieee.org/document/8594418}{\bf Improving Offline Value-Function Approximations for POMDPs by Reducing Discount Factors}\\ {\small -- with Mykel Kochenderfer and Matthijs Spaan.}\\ {\small -- {\it IEEE/RSJ International Conference on Intelligent Robots and Systems} (2018).}
+%	
+%\end{enumerate}
+
+
+\section{Awards and Honors}
+\begin{itemize}[leftmargin=0.15in, label={}]
+	{\item{
+			{{Fully Funded Next-Gen Scholar's Symposium},  NUS, Singapore}{\hfill {2024\,\,}} \\
+			{{Sustainability Endowment}, Imperial College \& University College London, Sargent Center}{\hfill {2024\,\,}} \\
+			{{Travel grant}, Imperial College \& University College London,  Sargent Center}{\hfill {2024\,\,}} \\
+			{{Fully Funded Rising Star Workshop}, Stanford University, MS\&E Department}{\hfill {2023\,\,}} \\
+			{{PhD Paper Award runner-up}, Imperial College Business School}{\hfill {2023\,\,}} \\
+			{{President's PhD Scholarship}, Imperial College London}{\hfill {2020 -- 2024\,\,}} \\
+			{{Graduate Student Fellowship}, }{Imperial College Business School \hfill {2019\,\,}} \\
+			{{Excellent Exchange Student Scholarship}, }{Harbin Institute of Technology.\hfill {2013\,\,}} \\
+			{{Outstanding Student Scholarship (Top 5\%)}, }{Harbin Institute of Technology.\hfill {2011,  2012\,\,}} \\
+			{{National Encouragement Scholarship (Top 3\%)}, }{Harbin Institute of Technology.\hfill {2012\,\,}} \\
+			{Silver Medal, }{Mathematical Modelling of Northeastern China League. \hfill {2011\,\,}}\\
+			{Silver Medal, }{Third Mathematics Competition of Chinese College Students (Non-math major). \hfill {2011\,\,}}
+	}}
+\end{itemize}
+
+
+%-----------PROJECTS-----------
+\section{Presentations}
+
+
+    \resumeSubHeadingListStart
+    \resumeProjectHeading
+    {\bf ``Optimal Human-in-the-Loop Recommendation under Endogenous Trust and Probabilistic Adherence''}{}
+    \resumeItemListStart
+   \resumeItem{INFORMS Annual Meeting,  Atlanta,  US,  October 2025}
+    \resumeItemListEnd
+
+    \resumeProjectHeading
+    {\bf ``Bayesian Modeling of Customer Choice and Churn''}{}
+    \resumeItemListStart
+   \resumeItem{Imperial College Computatioinal Optimization Group Seminar,  London,  UK,  June 2025}
+    \resumeItemListEnd
+
+     \resumeProjectHeading
+    {\bf ``From Data to Donations: Optimal Fundraising Campaigns for Non-Profit Organizations''}{}
+    \resumeItemListStart
+    \resumeItem{MSOM Conference,  London, UK,  June 2025}
+    \resumeItem{MSOM Conference,  Minneapolis, MN,  July 2024}
+     \resumeItem{Imperial College President's PhD Scholar Symposium,  London,  UK,  May 2024}
+    \resumeItemListEnd
+
+    \resumeProjectHeading
+    {\bf ``Optimal Campaigning for Non-profit Organizations''}{}
+    \resumeItemListStart
+    \resumeItem{INFORMS Annual Conference, Phoenix, AZ, October 2023}
+    \resumeItem{Rising Star Workshop at MS\&E Department, Stanford University,  CA, May 2023}
+    \resumeItemListEnd
+
+    \resumeProjectHeading
+    {\bf ``Randomized Assortment Optimization''}{}
+    \resumeItemListStart
+    \resumeItem{Next-Gen Scholar's Symposium, Singapore,  August 2024}
+    \resumeItem{POMS-HK, Hong Kong, China,  January 2024}
+    \resumeItem{RMP Section Conference, London, UK,  July 2023}    
+    \resumeItem{MSOM Conference, Montr\'{e}al, Canada,  June 2023}
+    \resumeItem{London Operations Research PhD Seminar Series, London, UK, June 2023}
+    \resumeItem{INFORMS Annual Conference, Indianapolis, IN, October 2022}
+    \resumeItem{Transatlantic Doctoral Conference, London, UK, May 2022}
+    \resumeItem{ICBS Operations Research PhD Seminars, London, UK, May 2022}
+    \resumeItem{The $63th$ OR Society's Annual Conference,  Virtual, June 2021} 
+    \resumeItemListEnd
+    \resumeSubHeadingListEnd
+    
+\section{Professional Activities}
+
+\quad Ad-hoc journal referee for \emph{Management Science}, \emph{Operations Research}, \emph{Operations Research Letters}, \emph{Applied Energy}
+
+\quad Ad-hoc conference referee for \emph{NeurIPS}, \emph{ICML}, \emph{ICLR}
+
+\section{Work Experience}
+
+\begin{itemize}[leftmargin=0.15in, label={}]
+	{\item{
+%			{{Software Engineeer},  Shanghai Tonghao Civil Engineering Consulting Co., Ltd., Shanghai, China.}{
+%			 {\\ \hfill February -- July 2015\,\,}} \\
+			{{Intern},  International Renewable Energy Agency, Abu Dhabi, UAE}{\hfill {July - September 2016\,\,}} \\
+			{{Research Assistant},  Transport and Mobility Laboratory,  Lausanne, Switzerland}{\hfill {2017 -- 2019\,\,}} \\
+			
+%			{Honorable Mention, }{INFORMS {George E. Nicholson Student Paper Prize}. \hfill {2020\,\,}} \\
+%			{Winner, }{INFORMS {Decision Analysis Student Paper Award}.\hfill {2019\,\,}} \\
+%			{Second Place, }{INFORMS {Jeff McGill Revenue Management and Pricing Student Paper Award}.\hfill {2019\,\,}}\\
+%			{Finalist, }{INFORMS {Service Science Best Paper Award}.\hfill {2019\,\,}}\\
+%			{{Spotlight Presentation}, }{INFORMS Revenue Management and Pricing Conference.\hfill {2019\,\,}}\\
+%			{{Four-year Ph.D. Fellowship}, }{UCLA Anderson.\hfill {2017\,\,}}\\
+%			{{Presidential Awards}, }{National Taiwan University.\hfill {2012, 2013\,\,}}\\
+	}}
+\end{itemize}
+
+\section{Languages}
+\quad Mandarin ({native}), English ({fluent}), French ({beginner}),  Korean ({beginner})
+
+% \section{References}
+% \quad \textbf{Wolfram Wiesemann}
+
+% \quad Professor of Analytics \& Operations 
+
+% \quad Imperial College Business School
+
+% \quad Email: {ww@imperial.ac.uk}
+
+% %\quad Tel: +44  20 7594 9150
+
+% \vspace{0.3cm}
+
+% \quad \textbf{Heikki Peura}
+
+% \quad Associate Professor of Information \& Service Management 
+
+% \quad Aalto University School of Business
+
+% \quad Email: {heikki.peura@aalto.fi}
+
+% \vspace{0.3cm}
+
+% \quad \textbf{Daniel Kuhn}
+
+% \quad Professor of Operations Research
+
+% \quad College of Management of Technology at EPFL
+
+% \quad Email: {daniel.kuhn@epfl.ch}
+
+%\quad Tel: +41 21 693 00 46
+
+\end{document}
