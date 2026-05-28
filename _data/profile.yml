@@ -1,6 +1,6 @@
 name: Zhengchao Wang
-title: Lecturer
-affiliation: School of Business Analytics and Marketing, University of Sydney Business School
+title: Lecturer (Assistant Professor)
+affiliation: Discipline of Business Analytics, School of Business Analytics and Marketing, University of Sydney Business School
 email: zhengchao.wang@sydney.edu.au
 photo: /zhengchaowang.jpg
 notice:
@@ -20,7 +20,7 @@ links:
     external: true
 
 bio:
-  - I am a Lecturer at the University of Sydney Business School in the School of Business Analytics and Marketing.
+  - I am a Lecturer in the Discipline of Business Analytics at the University of Sydney Business School.
   - My research interests are in data-driven decision-making using optimization and statistical learning, with applications in revenue management and social goods.
 
 research_interests:
