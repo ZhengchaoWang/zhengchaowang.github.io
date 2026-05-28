@@ -11,16 +11,21 @@
     - title: "From Data to Donations: Optimal Fundraising Campaigns for Non-Profit Organizations"
       authors: Heikki Peura, Sven Mikolon, and Wolfram Wiesemann
       venue:
-      note:
+      note: Manuscript available upon request
       url:
     - title: "From Markov Chain Choice to Markov Decision Processes: Equivalence, Optimization, and Construction"
       authors: Zhengchao Wang
       venue:
-      note:
+      note: Manuscript available upon request
       url:
 
 - name: Work in Progress
-  items: []
+  items:
+    - title: Optimal Human-in-the-Loop Recommendation under Endogenous Trust and Probabilistic Adherence
+      authors: Huikang Liu and Huan Xu
+      venue:
+      note:
+      url:
 
 - name: Earlier Publications
   items:
