@@ -8,11 +8,6 @@
 
 - name: Working Papers
   items:
-    - title: "From Data to Donations: Optimal Fundraising Campaigns for Non-Profit Organizations"
-      authors: Zhengchao Wang, Heikki Peura, Sven Mikolon, and Wolfram Wiesemann
-      venue:
-      note: Manuscript available upon request
-      url:
     - title: "From Markov Chain Choice to Markov Decision Processes: Equivalence, Optimization, and Construction"
       authors: Zhengchao Wang
       venue:
@@ -21,6 +16,11 @@
 
 - name: Work in Progress
   items:
+    - title: "From Data to Donations: Optimal Fundraising Campaigns for Non-Profit Organizations"
+      authors: Zhengchao Wang, Heikki Peura, Sven Mikolon, and Wolfram Wiesemann
+      venue:
+      note:
+      url:
     - title: Optimal Human-in-the-Loop Recommendation under Endogenous Trust and Probabilistic Adherence
       authors: Zhengchao Wang, Huikang Liu, and Huan Xu
       venue:
