@@ -11,21 +11,16 @@
     - title: "From Data to Donations: Optimal Fundraising Campaigns for Non-Profit Organizations"
       authors: Heikki Peura, Sven Mikolon, and Wolfram Wiesemann
       venue:
-      note: Job market paper
+      note:
+      url:
+    - title: "From Markov Chain Choice to Markov Decision Processes: Equivalence, Optimization, and Construction"
+      authors: Zhengchao Wang
+      venue:
+      note:
       url:
 
 - name: Work in Progress
-  items:
-    - title: Robust Adaptive Experiment Design over Finite Horizons
-      authors: Daniel Kuhn, Heikki Peura, and Wolfram Wiesemann
-      venue:
-      note:
-      url:
-    - title: Regret-Minimizing Assortment Optimization
-      authors: Zhi Chen and Yi-Chun Akchen
-      venue:
-      note:
-      url:
+  items: []
 
 - name: Earlier Publications
   items:

@@ -14,7 +14,7 @@ This site is set up for GitHub Pages with Jekyll. It does not require RStudio.
 For example, to show a temporary announcement, edit `_data/profile.yml`:
 
 ```yaml
-notice: I am on the 2026-2027 academic job market.
+notice: I have updated my CV.
 ```
 
 To add a news item, edit `_data/news.yml`:
