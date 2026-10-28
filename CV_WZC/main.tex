@@ -23,6 +23,7 @@
 \pagestyle{fancy}
 \fancyhf{}
 \fancyfoot[R]{ \qquad \qquad \qquad \qquad \; \newline  Page \thepage\ of \pageref{LastPage}}
+\setlength{\footskip}{5pt}
 \usepackage[english]{babel}
 \usepackage{tabularx}
 \usepackage{soul}
@@ -103,9 +104,9 @@
 
 \newcommand{\resumeProjectHeading}[2]{
     \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \begin{tabularx}{0.97\textwidth}{Xr}
       #1 & #2 \\
-    \end{tabular*}\vspace{-7pt}
+    \end{tabularx}\vspace{-7pt}
 }
 
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
@@ -182,6 +183,8 @@
 
 \underline{\sc \small Working Papers:} {} %\small (preprints available)
 \begin{myitemize}
+		\item {\bf Overcoming Demand Censoring through Randomization for Risk-Sensitive Newsvendor Learning}\\{Zhengchao Wang and Nam Ho-Nguyen}
+		\\ {\it {Under review}}
 		\item {\bf From Data to Donations: Optimal Fundraising Campaigns for Non-Profit Organizations}\\{Zhengchao Wang, Heikki Peura, Sven Mikolon, and Wolfram Wiesemann}
 		\\ {\it {Manuscript available upon request}}
        \item {\bf From Markov Chain Choice to Markov Decision Processes: Equivalence, Optimization, and Construction}\\{Zhengchao Wang}
@@ -191,6 +194,10 @@
 \underline{\sc \small Work in Progress:}
 \begin{myitemize}
        \item {\bf Optimal Human-in-the-Loop Recommendation under Endogenous Trust and Probabilistic Adherence}\\{Zhengchao Wang, Huikang Liu, and Huan Xu}
+       \item {\bf Assortment Optimization with Endogenous Consideration and Discount Disclosure}\\{Yi Chen, Jing Dong, Zhengchao Wang, and Fanyin Zheng}
+       \item {\bf Optimal Minimax Policies for Binary Multi-Armed Bandits}\\{Zhengchao Wang and Huikang Liu}
+       \item {\bf Online Assortment Optimization for Balanced and Diversified Demand}\\{Zhengchao Wang, Hanzhao Wang, and Kalyan Talluri}
+       \item {\bf Decision-Guided Variational Inference: Problem Classes, Distance Metrics, and Computation}\\{Lingjun Meng and Zhengchao Wang}
 \end{myitemize}
 %\href{ }
 \underline{\sc \small Other Publications:}
@@ -230,12 +237,7 @@ Research Conference}}
 			{{Fully Funded Rising Star Workshop}, Stanford University, MS\&E Department}{\hfill {2023\,\,}} \\
 			{{PhD Paper Award runner-up}, Imperial College Business School}{\hfill {2023\,\,}} \\
 			{{President's PhD Scholarship}, Imperial College London}{\hfill {2020 -- 2024\,\,}} \\
-			{{Graduate Student Fellowship}, }{Imperial College Business School \hfill {2019\,\,}} \\
-			{{Excellent Exchange Student Scholarship}, }{Harbin Institute of Technology.\hfill {2013\,\,}} \\
-			{{Outstanding Student Scholarship (Top 5\%)}, }{Harbin Institute of Technology.\hfill {2011,  2012\,\,}} \\
-			{{National Encouragement Scholarship (Top 3\%)}, }{Harbin Institute of Technology.\hfill {2012\,\,}} \\
-			{Silver Medal, }{Mathematical Modelling of Northeastern China League. \hfill {2011\,\,}}\\
-			{Silver Medal, }{Third Mathematics Competition of Chinese College Students (Non-math major). \hfill {2011\,\,}}
+			{{Graduate Student Fellowship}, }{Imperial College Business School \hfill {2019\,\,}}
 	}}
 \end{itemize}
 
@@ -257,6 +259,13 @@ Research Conference}}
    \resumeItem{Imperial College Computatioinal Optimization Group Seminar,  London,  UK,  June 2025}
     \resumeItemListEnd
 
+    \resumeProjectHeading
+    {\bf ``From Markov Chain Choice to Markov Decision Processes: Equivalence, Optimization, and Construction''}{}
+    \resumeItemListStart
+    \resumeItem{\textit{Invited talks:} COG Seminar Series, Imperial College London; Institute for Intelligent Computing, Shanghai Jiao Tong University}
+    \resumeItemListEnd
+
+    \newpage
      \resumeProjectHeading
     {\bf ``From Data to Donations: Optimal Fundraising Campaigns for Non-Profit Organizations''}{}
     \resumeItemListStart

@@ -8,6 +8,11 @@
 
 - name: Working Papers
   items:
+    - title: "Overcoming Demand Censoring through Randomization for Risk-Sensitive Newsvendor Learning"
+      authors: Zhengchao Wang and Nam Ho-Nguyen
+      venue:
+      note: Under review
+      url:
     - title: "From Markov Chain Choice to Markov Decision Processes: Equivalence, Optimization, and Construction"
       authors: Zhengchao Wang
       venue:
