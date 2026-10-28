@@ -64,21 +64,3 @@
       venue: Routledge Handbook of Urban Mobility, June 2020
       note:
       url: https://doi.org/10.4324/9781351058759
-
-- name: Conference Proceedings
-  items:
-    - title: Robust Optimization of Power Grid with Distributed Generation and Improved Reliability
-      authors: Zhengchao Wang and A.T. Dasun Perera
-      venue: "REM2018: Renewable Energy Integration with Mini/Microgrid (Invited for journal submission)"
-      note:
-      url: https://doi.org/10.1016/j.egypro.2018.12.069
-    - title: Integrated Optimization of Charging Stations for Electric Taxis
-      authors: Zhengchao Wang, Yuki Oyama, Michel Bierlaire, and Nikolaos Geroliminis
-      venue: 19th Swiss Transport Research Conference
-      note:
-      url: https://www.strc.ch/2019/Wang_EtAl.pdf
-    - title: "Pedestrian Activity Schedule Models: Review and Promises"
-      authors: Zhengchao Wang, Yuki Oyama, Riccardo Scarinci, Michel Bierlaire, and Nikolaos Geroliminis
-      venue: 18th Swiss Transport Research Conference
-      note:
-      url: https://www.strc.ch/2018/Wang_EtAl.pdf
