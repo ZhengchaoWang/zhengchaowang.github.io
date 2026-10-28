@@ -8,6 +8,11 @@
 
 - name: Working Papers
   items:
+    - title: "Multi-Armed Bernoulli Bandits via Minimax Single-Arm Stopping"
+      authors: Huikang Liu, Zhengchao Wang, Daniel Kuhn, and Wolfram Wiesemann
+      venue: "arXiv:2609.22690 (2026)"
+      note:
+      url: https://arxiv.org/abs/2609.22690
     - title: "Overcoming Demand Censoring through Randomization for Risk-Sensitive Newsvendor Learning"
       authors: Zhengchao Wang and Nam Ho-Nguyen
       venue:
